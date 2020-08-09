@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile": "babel src -d dist",
-    "postinstall": "eos config init"
+    "compile": "babel src -d dist"
   },
   "bin": {
     "eos": "./bin/www"
